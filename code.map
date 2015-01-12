@@ -1,0 +1,4 @@
+connect=adb connect %0
+start=adb shell am start -n com.polyvi.xFacePlayer/com.polyvi.xface.XPlayerActivity
+stop=adb shell am force-stop  com.polyvi.xFacePlayer
+push=adb push 0% "/sdcard/xFacePlayer/applications/app"
